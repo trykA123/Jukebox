@@ -1,0 +1,12 @@
+version: "3.9"
+
+services:
+  jukebox:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "15230:15230"
+    environment:
+      - PORT=15230
+    restart: unless-stopped
