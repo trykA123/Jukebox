@@ -1,0 +1,11 @@
+{
+	"name": "jukebox",
+	"version": "1.0.0",
+	"private": true,
+	"type": "module",
+	"scripts": {
+		"setup": "cd server && bun install",
+		"dev": "cd server && bun run dev",
+		"start": "cd server && bun run start"
+	}
+}
